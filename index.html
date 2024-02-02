@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Britlex Language School</title>
+    <!-- Иконка для страницы -->
+    <link rel="shortcut icon" href="./images/transparent-english.png" type="png" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <div class="conteiner">
+        <div class="header-conteiner">
+          <div class="header-nav-logo">
+            <a class="header-logo" href="./index.html"
+              ><span class="header-logo-span">Brit</span>lex</a
+            >
+          </div>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="./index.html">Home</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#Skills">Skills</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#About">About Us</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#Pricing">Pricing</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link link" href="#Contact">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header-btn" href="https://chat.openai.com/" target="_blank">
+            Let’s Talk
+          </a>
+    <!-- Mobile menu -->
+          <div class="header-menu__menu">
+            <button onclick="toggleDropdown()" class="header-menu__menu-btn">
+                <img src="./images/burger-menu.svg" alt="menu">
+            </button>
+            <div id="menu" class="header-menu__menu-slider disp">
+                <ul class="header-nav-list block">
+                  <li class="header-nav-item">
+                    <a class="header-nav-link link" href="./index.html">Home</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a class="header-nav-link link" href="#Skills">Skills</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a class="header-nav-link link" href="#About">About Us</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a class="header-nav-link link" href="#Pricing">Pricing</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a class="header-nav-link link" href="#Contact">Contacts</a>
+                  </li>
+                    </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Основная часть -->
+    <main>
+      <!-- Главная секция -->
+      <section class="hero">
+        <div class="conteiner">
+          <div class="hero-conteiner">
+            <div class="hero-content-text">
+              <h1 class="hero-title">Learn Any Foreign Language</h1>
+              <p class="hero-text">
+                With our teachers who write a program for each student, you will be able to make
+                your first sketch after the first lesson.
+              </p>
+              <button class="hero-btn button" type="button">Get started</button>
+            </div>
+            <div class="hero-content-img">
+              <img
+                class="hero-img"
+                src="./images/learning-languages.jpg"
+                alt="language of countries"
+                width="654"
+                height="510"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Скилы -->
+      <section class="skills">
+        <div class="conteiner">
+            <h2 class="skills-title" id="Skills">Skills</h2>
+            <ul class="skills-list">
+              <li class="skills-item1 card">
+                  <img class="skills-img"
+                  src="./images/Shared goals-bro 1.jpg"
+                  alt="Shared goals"
+                  width="390"
+                  height="390"
+                  />
+                  <h3 class="skills-subtitle">Speaking</h3>
+                  <p class="skills-text">
+                  Improve your English skills and confidence. Live classes and interactive lessons
+                  online. 20% extra free for a limited time only
+                  </p>
+                  <p class="skills-text">
+                  Learn English online and improve your skills through our high-quality courses and
+                  resources – all designed for adult language learners.
+                  </p class="skills-text">
+                  <button class="skills-btn button">Learn more</button>
+              </li>
+              <li class="skills-item2 card">
+                  <img class="skills-img" src="./images/Typewriter-bro 1.jpg" alt="Typewriter" width="390" height="264" />
+                  <h3 class="skills-subtitle">Writing</h3>
+                  <p class="skills-text">
+                  One of the most important and extensive areas of natural science, the science that
+                  studies substances, also their composition
+                  </p>
+                  <button class="skills-btn button">Learn more</button>
+              </li>
+              <li class="skills-item3 card">
+                  <img class="skills-img"
+                  src="./images/House bookshelves-bro 1.jpg"
+                  alt="House bookshelves"
+                  width="390"
+                  height="264"
+                  />
+                  <h3 class="skills-subtitle">Reading</h3>
+                  <p class="skills-text">
+                  Perception and response actions of the user resulting from the use and/or upcoming use
+                  of the product, system or service
+                  </p>
+                  <button class="skills-btn button">Learn more</button>
+              </li>
+              <li class="skills-item4 card">
+                  <div class="skills-item-img">
+                      <img class="skills-img"
+                      src="./images/Podcast audience-bro 1.jpg"
+                      alt="Podcast audience"
+                      width="408"
+                      height="274"
+                      />
+                  </div>
+                      <div class="skills-item-text">
+                      <h3 class="skills-subtitle">Listening</h3>
+                      <p class="skills-text">
+                      Here you can find activities to practise your listening skills. Listening will help
+                      you to improve your understanding
+                      </p>
+                      <button class="skills-btn button">Learn more</button>
+                  </div>
+              </li>
+            </ul>
+        </div>
+      </section>
+
+      <!-- О нас -->
+      <section class="about">
+        <div class="conteiner">
+            <div class="about-conteiner">
+                <h2 class="about-title about-mobile" id="About">About Us</h2>
+                <div class="about-content-text">      
+                    <h2 class="about-title" id="About">About Us</h2>
+                    <p class="about-text">
+                    The model offers a framework for discussing problems related to the user's experience, as
+                    well as possible ways and means of solving them. Application development begins at the top
+                    level (strategy), where the future software product is described quite abstractly from the
+                    point of view of the expectations of both users and the customer.
+                    </p>
+                    <ul class="about-list">
+                        <li class="about-item">
+                            <span class="about-item-span">800</span>
+                            <p class="about-item-text">Pupils</p>
+                        </li>
+                        <li class="about-item">
+                            <span class="about-item-span">18</span>
+                            <p class="about-item-text">Teachers</p>
+                        </li>
+                        <li class="about-item">
+                            <span class="about-item-span">6</span>
+                            <p class="about-item-text">Foreign languages</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-content-img">
+                    <img class="about-img"
+                    src="./images/Business competition-bro 1.jpg"
+                    alt="Business competition"
+                    width="540"
+                    height="540"
+                    />
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Цены -->
+      <section class="pricing">
+        <div class="conteiner">
+            <h2 class="pricing-title" id="Pricing">Pricing</h2>
+            <ul class="pricing-list">
+              <li class="pricing-item">
+                <img class="pricing-img" src="./images/online.jpg" alt="online" width="426" height="320" />
+                <h3 class="pricing-subtitle">Self-study online course</h3>
+                <p class="pricing-text">
+                  Start learning English online in live classes with qualified EC teachers and students
+                  from all over the world.
+                </p>
+                <div class="pricing-content">
+                    <span class="pricing-price"> £5.99</span>
+                    <p class="pricing-price-text">per month</p>
+                </div>
+              </li>
+              <li class="pricing-item">
+                <img class="pricing-img" src="./images/lesson.png" alt="lesson" width="426" height="320" />
+                <h3 class="pricing-subtitle">Live online classes</h3>
+                <p class="pricing-text">Interactive group classes with expert teachers. Free 7-day trial</p>
+                <div class="pricing-content">
+                    <span class="pricing-price"> £12.99</span>
+                    <p class="pricing-price-text">per month</p>
+                </div>
+              </li>
+              <li class="pricing-item">
+                <img class="pricing-img" src="./images/webinar.png" alt="webinar" width="426" height="320" />
+                <h3 class="pricing-subtitle">Personal Tuition</h3>
+                <p class="pricing-text">Online one-to-one English tutoring – enjoy our first session for only $1</p>
+                <div class="pricing-content">
+                    <span class="pricing-price"> £12.99</span>
+                    <p class="pricing-price-text">per month</p>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </section>
+
+      <!-- Контакты -->
+      <section class="contact">
+        <div class="conteiner">
+            <div class="contact-conteiner">
+                <h2 class="contact-title contact-mobile" id="Contact">Contact Us</h2>
+                <div class="contact-img">
+                    <img src="./images/contact.png" alt="contact" width="425" height="430" />
+                </div>
+                <div class="contact-content">
+                    <h2 class="contact-title" id="Contact">Contact Us</h2>
+                    <p class="contact-text">
+                    Discover your current English level by taking our free online English test. Sign up to our
+                    newsletter for learning tips and free resources
+                    </p>
+                    <form class="contact-form">
+                        <input class="contact-input" type="email" placeholder="Enter Your E-mail" />
+                        <button class="contact-btn button" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer-conteiner">
+                <a class="footer-logo" href="./index.html"><span class="footer-logo-span">Brit</span>lex</a>
+                <ul class="footer-list">
+                  <li class="footer-item">
+                    <a class="footer-link link" href="#">Terms and Conditions</a>
+                  </li>
+                  <li class="footer-item">
+                    <a class="footer-link link" href="#">Privacy Policy</a>
+                  </li>
+                  <li class="footer-item">
+                    <a class="footer-link link" href="#">Cookie Policy</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
